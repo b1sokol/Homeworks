@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(89, 197, 47);
+}
+.wrap{
+    width: 50%;
+    background: lightgray;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrap div{
+    height: 300px;
+    margin: 200px;
+}

@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(143, 62, 89);
+}
+.wrap{
+    width: 50%;
+    background: beige;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrap div{
+    height: 300px;
+    margin: 200px;
+}

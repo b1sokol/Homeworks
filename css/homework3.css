@@ -1,0 +1,17 @@
+body{
+    background-color: cadetblue;
+}
+h2{
+    text-decoration: underline;
+
+}
+.wrap{
+    width: 50%;
+    background: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrap div{
+    height: 300px;
+    margin: 200px;
+}
