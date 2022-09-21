@@ -1,0 +1,217 @@
+.body{
+    width: 900px;
+}
+.block {
+    width: 150px;
+    height: 100px;
+    background: violet;
+    display: inline-block;
+    margin-left: 220px;
+    font-size: 0px;
+}
+
+.test {
+    width: 100px;
+    height: 75px;
+    background: yellow;
+    margin-top: 12.5px;
+    margin-left: 25px;
+}
+
+.test2 {
+    width: 100px;
+    height: 75px;
+    background: yellow;
+    margin-top: 12.5px;
+    margin-left: 25px;
+}
+
+.two{
+    background: violet;
+   margin-left: 60px;
+   font-size: 0px;
+}
+
+.pos {
+    width: 400px;
+    height: 300px;
+    background: violet;
+    margin-left: 200px;
+}
+.eye{
+    width: 120px;
+    height: 70px;
+    background: yellow;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+.center{
+    width: 50px;
+    height: 50px;
+    background: black;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+.pupil{
+    width: 50px;
+    height: 50px;
+    background: black;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+.nose{
+    width: 100px;
+    height: 100px;
+    background: burlywood;
+    margin-top: 10px;
+    margin-left: 150px;
+    border-radius: 50%;
+
+}
+.mouth{
+    width: 260px;
+    height: 54px;
+    background: red;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.nostril{
+    width: 30px;
+    height: 30px;
+    background: pink;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+.nostrilz{
+    width: 30px;
+    height: 30px;
+    background: pink;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+.teeth1{
+    width: 25px;
+    height: 25px;
+    background: white;
+     display: inline-block;
+     border-radius: 10%;
+     margin-left: 35px;
+}
+.teeth2{
+    width: 25px;
+    height: 25px;
+    background: white;
+     display: inline-block;
+     border-radius: 10%;
+     margin-left: 25px;
+}
+.teeth3{
+    width: 25px;
+    height: 25px;
+    background: white;
+     display: inline-block;
+     border-radius: 10%;
+     margin-left: 25px;
+}
+.teeth4{
+    width: 25px;
+    height: 25px;
+    background: white;
+     display: inline-block;
+     border-radius: 10%;
+     margin-left: 25px;
+}
+.teeth5{
+    width: 25px;
+    height: 25px;
+    background: white;
+     display: inline-block;
+     border-radius: 10%;
+     margin-left: 35px;
+}
+.teeth6{
+    width: 25px;
+    height: 25px;
+    background: white;
+     display: inline-block;
+     border-radius: 10%;
+     margin-left: 25px;
+}
+.teeth7{
+    width: 25px;
+    height: 25px;
+    background: white;
+     display: inline-block;
+     border-radius: 10%;
+     margin-left: 25px;
+}
+.teeth8{
+    width: 25px;
+    height: 25px;
+    background: white;
+     display: inline-block;
+     border-radius: 10%;
+     margin-left: 25px;
+}
+.neck{
+    width: 100px;
+    height: 100px;
+    background: violet;
+    margin-left: 350px;
+}
+.arm1{
+    width: 150px;
+    height: 150px;
+    background: violet;
+    display: inline-block;
+    margin-bottom: 300px;
+    font-size: 0;
+    border-radius: 0 0 10 10;
+}
+.basis{
+    width: 500px;
+    height: 500px;
+    background: violet;
+    display: inline-block;
+    font-size: 0;
+    border-radius: 10%;
+}
+.arm2{
+    width: 150px;
+    height: 150px;
+    background: violet;
+    display: inline-block;
+    margin-bottom: 300px;
+    font-size: 0;
+    border-radius: 10 10 0 0;
+}
+.leg1{
+    width: 150px;
+    height: 150px;
+background: violet;
+display: inline-block;
+margin-left: 200px;
+}
+.leg2{
+    width: 150px;
+    height: 150px;
+    background: violet;
+    display: inline-block;
+    margin-left: 100px;
+}
+.stomach{
+    width: 300px;
+    height: 300px;
+    background: pink;
+    margin-top: 170px;
+    margin-left: 100px;
+    border-radius: 50%;
+}
