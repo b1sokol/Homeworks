@@ -14,22 +14,24 @@ html {
 
 .wrap {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
 }
-
-.logo {
-    float: left;
+.logo{
+    margin-right: 26px;
 }
-
-.main-menu {
-    float: left;
-}
-
-.menu-item {
+.list-item{
     display: inline-block;
-    height: 20px;
-    margin-right: 51px;
+}
+.menu-item{
+    text-decoration: none;
+    color: #000;
+    margin: 0 26px 0 26px;
+
+}
+.menu-item::after{
+    color: blue;
 }
 
 .btn {
@@ -37,8 +39,7 @@ html {
     padding: 13px 27px;
     border-radius: 4px;
     border: 2px solid #000;
-    float: right;
-    margin: 0 10px 0 358px;
+    text-decoration: none;
 }
 
 .btn2 {
@@ -47,7 +48,7 @@ html {
     padding: 13px 27px;
     border-radius: 4px;
     border: 2px solid #ff6336;
-    float: right;
+    text-decoration: none;
 }
 .block{
     height: 862px;
@@ -83,6 +84,7 @@ html {
     padding: 13px 27px;
     border-radius: 4px;
     border: 2px solid #ff6336;
+    text-decoration: none;
 }
 
 .btn4 {
@@ -93,6 +95,7 @@ html {
     border-radius: 4px;
     border: 2px solid #000;
     margin-left: 10px;
+    text-decoration: none;
 }
 
 .textp {
@@ -128,11 +131,11 @@ text-align: center;
 .compimg img{
     margin-right: 98px;
 }
-.text1{
-
-}
-.img1{
-
+.conwrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 90px 75px 150px 75px;
 }
 .text1 h1{
     font-family: 'Graphik LC TT';
@@ -155,11 +158,11 @@ font-weight: 600;
 font-size: 20px;
 line-height: 30px;
 }
-.text2{
-
-}
 .img2{
-    
+order: 1;
+}
+.text2{
+    order: 2;
 }
 .text2 h1{
     font-family: 'Graphik LC TT';
@@ -182,6 +185,12 @@ line-height: 60px;
     font-size: 20px;
     line-height: 30px;
 }
+.text3{
+    order: 3;
+}
+.img3{
+    order: 4;
+}
 .text3 h1{
     font-family: 'Graphik LC TT';
 font-style: normal;
@@ -202,6 +211,12 @@ font-style: normal;
 font-weight: 600;
 font-size: 20px;
 line-height: 30px;
+}
+.img4{
+    order: 5;
+}
+.text4{
+    order: 6;
 }
 .text4 h1{
     font-family: 'Graphik LC TT';
@@ -236,9 +251,14 @@ font-size: 50px;
 line-height: 60px;
 text-align: center;
 }
+.mainb{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 79px 130px 147px 130px;
+}
 .block11,.block12,.block13,.block14,.block15,.block16{
-display: flex;
-justify-content: space-around;
+margin-right: 60px;
 }
 .block11,.block12,.block13,.block14,.block15,.block16 h3{
     font-family: 'Graphik LC TT';
@@ -263,6 +283,13 @@ font-weight: 600;
 font-size: 50px;
 line-height: 60px;
 text-align: center;
+margin-top: 154px;
+margin-bottom: 84px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 187px;
 }
 .block21,.block22,.block23 h2{
     font-family: 'Graphik LC TT';
@@ -276,30 +303,202 @@ text-align: center;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 30px;  
+    line-height: 30px; 
 }
 .colorr{
     background: #C9E8F2;
 }
-.block31 p{
+.block31{
+    display: flex;
+    flex-direction: column;
+}
+.block31 h4{
     font-family: 'Graphik LC TT';
 font-style: normal;
 font-weight: 400;
 font-size: 30px;
 line-height: 40px;
-float: left;
+margin-top: 63px;
 }
-.block31 span{
+.block31 p{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 15px;
 line-height: 25px;
-float: left;
 }
 .block31 img{
-    float: left;
+width: 115px;
+height: 50px;
 }
-.man{
-    float: right;
+.man img{
+width: 310px;
+height: 310px;
+}
+.manb{
+    display: flex;
+    justify-content: space-between;
+    padding: 63px 75px 105px 75px;
+}
+.cakeb{
+    display: flex;
+    justify-content: space-around;
+    padding: 90px 55px 88px 55px;
+}
+.bbord{
+    width: 1px;
+    height: 168px;
+    border: 1px solid #000;
+    background: #000;
+}
+.cakeb h1{
+    font-family: 'Graphik LC TT';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 50px;
+}
+.cakecol{
+    background: #DABC98;
+}
+.integratelok{
+display: flex;
+flex-direction: column;
+padding: 165px 209px 162px 208px;
+}
+.integratelok h1{
+    font-family: 'Graphik LC TT';
+font-style: normal;
+font-weight: 600;
+font-size: 65px;
+line-height: 75px;
+align-self: center;
+}
+.integratelok p{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    align-self: center;
+}
+.btn5{
+    color: #fff;
+    background: #FF6336;
+    padding: 13px 27px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 10px;
+    text-decoration: none;  
+    align-self: center;
+    margin-top: 32px;
+}
+.colorp{
+    background: #FF9C7D;
+}
+.lm{
+    display: flex;
+    flex-direction: column;
+    padding: 162px 328px 118px 328px;
+}
+.lm h1{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    align-self: center;
+}
+.lm p{
+    font-family: 'Graphik LC TT';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+align-self: center;
+margin-top: 29px;
+}
+.btn6{
+    color: #fff;
+    background: #000;
+    padding: 13px 27px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 10px;
+    text-decoration: none;  
+    align-self: center;
+    margin-top: 54px;
+}
+.inf{
+    display: flex;
+    flex-direction: column;
+}
+.menu4{
+    display: flex;
+}
+.lb1{
+    display: flex;
+    justify-content: space-around;
+}
+.inf h1{
+    font-family: 'Graphik LC TT';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 50px;
+}
+.inf p{
+    font-family: 'Graphik LC TT';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+}
+.ilogo{
+    width: 80px;
+    height: 32px;
+    margin-top: 31px;
+} 
+.inf a{
+    margin-bottom: 95px;
+}
+.lastblock{
+    padding: 97px 75px 43px 75px;
+}
+.lokal{
+    border-top: 1px solid #000;
+    display: flex;
+   justify-content: space-between;
+   padding-top: 52px;
+}
+.lokwork{
+display: flex;
+
+}
+.lokwork img{
+    margin-right: 15px;
+}
+.reserv{
+    margin-right: 76px;
+}
+.list-item1{
+    display: flex;
+    flex-direction: column;
+}
+.menu-item1{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Graphik LC TT';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 40px;
+}
+.blockmenu1,.blockmenu2,.blockmenu3,.blockmenu4 h1{
+    font-family: 'Graphik LC TT';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
 }
