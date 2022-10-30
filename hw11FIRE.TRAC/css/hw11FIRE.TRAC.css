@@ -1,51 +1,79 @@
-*,body,html{
+*,
+body,
+html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
 }
-.main-block{
+
+.main-block {
     width: 100%;
     height: 100vh;
     position: relative;
+    animation: main-block 10s linear infinite;
 }
-.car{
+
+.liter {
+    width: 5%;
+    top: 26%;
+    left: 51%;
+    position: absolute;
+    animation: liter 1s linear infinite;
+}
+
+@keyframes liter {
+    from {
+        background: blue;
+    }
+
+    to {
+        background: red;
+    }
+}
+
+.car {
     width: 50%;
     top: 30%;
-    left: 61%;
+    left: 36%;
     position: absolute;
-    animation: car 10s linear infinite;
 }
-@keyframes car{
-    from{
-transform: translateX(200%);
+
+@keyframes main-block {
+    from {
+        transform: translateX(50%);
     }
-    to{
-transform: translateX(-400%);
+
+    to {
+        transform: translateX(-150%);
     }
 }
-.wheels{
-    z-index: 2;
-}
-.wheels img{
+
+.wheel1 {
+    position: absolute;
+    top: 60%;
+    left: 36.5%;
     width: 10%;
-    animation: wheels 1s linear infinite ;
+    animation: wheel1 1s linear infinite;
 }
-@keyframes wheels{
-    100%{
+
+.wheel2 {
+    position: absolute;
+    top: 60%;
+    left: 69%;
+    width: 10%;
+    animation: wheel2 1s linear infinite;
+}
+
+@keyframes wheel1 {
+    100% {
         transform: rotate(-360deg);
     }
 }
-.wheel1{
-position: absolute;
-top: 70%;
-left: 36.5%;
-width: 10%;
-}
-.wheel2{
-    position: absolute;
-    top: 70%;
-    left: 69%;
-    width: 10%;
+
+@keyframes wheel2 {
+    100% {
+        transform: rotate(-360deg);
+    }
 }
