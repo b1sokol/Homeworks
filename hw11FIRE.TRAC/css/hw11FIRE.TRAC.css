@@ -11,8 +11,41 @@
     position: relative;
 }
 .car{
+    width: 50%;
+    top: 30%;
+    left: 61%;
     position: absolute;
+    animation: car 10s linear infinite;
 }
-.wheels1,.wheels2{
+@keyframes car{
+    from{
+transform: translateX(200%);
+    }
+    to{
+transform: translateX(-400%);
+    }
+}
+.wheels{
+    z-index: 2;
+}
+.wheels img{
+    width: 10%;
+    animation: wheels 1s linear infinite ;
+}
+@keyframes wheels{
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+.wheel1{
 position: absolute;
+top: 70%;
+left: 36.5%;
+width: 10%;
+}
+.wheel2{
+    position: absolute;
+    top: 70%;
+    left: 69%;
+    width: 10%;
 }
