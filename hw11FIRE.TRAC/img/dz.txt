@@ -1,0 +1,6 @@
+Мой код.
+https://github.com/h1bari1/Lesson/tree/pets
+Макет
+https://www.figma.com/file/PMdMxZhTS3ZRzjyXrYdzlN/shelter-dom-(Copy)?node-id=207%3A698
+Доделать макет (с адаптивом) продолжив мой код.
+Кроме слайдера.

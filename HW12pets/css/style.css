@@ -1,0 +1,358 @@
+*, body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 40px;
+  margin: auto;
+}
+
+.header-section {
+  padding-top: 60px;
+  background: linear-gradient(0deg, #211F20, #211F20), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo .main-logo {
+  font-size: 32px;
+  color: #F1CDB3;
+  font-weight: 400;
+  font-family: "Georgia", sans-serif;
+}
+.logo .sub-logo {
+  margin-top: 10px;
+  font-size: 13px;
+  color: white;
+  font-weight: 400;
+  font-family: "Arial", sans-serif;
+}
+
+.menu-burger {
+  display: none;
+  transition: 1s ease-in-out;
+  z-index: 100;
+}
+.menu-burger div {
+  width: 30px;
+  height: 2px;
+  background: #F1CDB3;
+  transition: 1s ease-in-out;
+}
+.menu-burger div:nth-child(2) {
+  margin: 10px 0;
+}
+.menu-item {
+  display: inline-block;
+  margin: 0 17px;
+}
+.menu-item.active {
+  position: relative;
+}
+.menu-item.active a {
+  color: white;
+}
+.menu-item.active::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: #F1CDB3;
+  bottom: -10px;
+  left: 0;
+}
+.menu-link {
+  font-size: 15px;
+  color: #CDCDCD;
+  font-weight: 400;
+  font-family: "Arial", sans-serif;
+}
+.menu-list {
+  transition: 1s ease-in-out;
+}
+
+.main-wrap {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-wrap: nowrap;
+}
+.main-content {
+  width: 460px;
+}
+.main-content .content-header h1 {
+  font-size: 44px;
+  color: white;
+  font-weight: 400;
+  font-family: "Georgia", sans-serif;
+}
+.main-content .content-description {
+  margin: 42px 0;
+}
+.main-content .content-description p {
+  font-size: 15px;
+  color: #CDCDCD;
+  font-weight: 400;
+  font-family: "Arial", sans-serif;
+  line-height: 160%;
+}
+.main-image {
+  width: 698px;
+}
+.main-image img {
+  width: 100%;
+}
+
+.btn a {
+  font-size: 17px;
+  color: #292929;
+  font-weight: 400;
+  font-family: "Georgia", sans-serif;
+  padding: 15px 45px;
+  border-radius: 100px;
+  background: #F1CDB3;
+  display: inline-block;
+}
+
+.section-header {
+  font-size: 35px;
+  color: #545454;
+  font-weight: 400;
+  font-family: "Georgia", sans-serif;
+}
+
+.about-section {
+  padding: 94px 0 100px;
+}
+
+.about-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about-wrap-image, .about-wrap-description {
+  flex-basis: 50%;
+}
+.about-wrap-image {
+  text-align: center;
+}
+.about-wrap-image img {
+  width: 60%;
+}
+.about-wrap-description p {
+  margin-top: 25px;
+  font-size: 15px;
+  color: #4c4c4c;
+  font-weight: 400;
+  font-family: "Arial", sans-serif;
+  line-height: 160%;
+  padding-right: 50px;
+}
+
+.help-section {
+  padding: 80px 0 100px;
+}
+.help-section .help-header {
+  text-align: center;
+}
+
+.shelter-wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.shelter-wrap__item {
+  text-align: center;
+  margin-top: 85px;
+  width: 201px;
+}
+
+.pets-section {
+  padding: 80px 0 100px;
+  background: #F6F6F6;
+}
+
+.pets-header h2 {
+  text-align: center;
+}
+
+.pets {
+  margin-top: 60px;
+  padding: 0 105px;
+  position: relative;
+}
+.pets-item {
+  width: 270px;
+  background: #fafafa;
+  border-radius: 9px;
+  padding-bottom: 30px;
+  margin: auto;
+}
+.pets-item__name {
+  margin-top: 30px;
+}
+.pets-item__name p {
+  font-size: 20px;
+  color: #545454;
+  font-weight: 400;
+  font-family: "Georgia", sans-serif;
+  text-align: center;
+}
+.pets-item .btn {
+  text-align: center;
+  margin-top: 30px;
+}
+.pets-item .btn a {
+  background: none;
+  border: 2px solid #F1CDB3;
+}
+
+.slick-prev, .slick-next {
+  position: absolute;
+  top: 50%;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  transform: translate(-50%);
+  border: none;
+}
+
+.slick-prev {
+  left: 0;
+}
+
+.slick-next {
+  right: 0;
+}
+
+.slick-prev::after, .slick-next::before {
+  content: "";
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 2px solid #F1CDB3;
+  background: url("../images/arrow.png") no-repeat center;
+  background-size: 14px;
+  cursor: pointer;
+}
+.donat-section{
+  background: #F6F6F6;
+}
+.container-don{
+  display: flex;
+  padding: 91px 213px 100px 183px;
+}
+.header-don h2{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  margin-bottom: 20px;
+}
+.header-don p{
+  font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 110%;
+margin-bottom: 20px;
+}
+.card-btn{
+  display: flex;
+  padding: 10px 15px;
+  background:#F1CDB3;
+  border-radius: 5px;
+  border-color: #F1CDB3;
+  margin-bottom: 20px;
+align-items: center;
+}
+.card-btn p{
+  align-self: center;
+}
+.card-btn img{
+  margin-right:15px;
+}
+.info{
+  font-family: 'Arial';
+font-style: italic;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+color: #B2B2B2;
+}
+.last{
+  background: #211F20;
+}
+.container-com{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+.email-numb h3{
+  font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+color: #fff;
+margin-bottom: 45px;
+}
+.geo h3{
+  font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+color: #fff;
+margin-bottom: 34px;
+}
+.e-mail,.nmbr,.g-b,.g-l{
+  font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+color: #F1CDB3;
+align-self: center;
+}
+.email img{
+  margin-right: 20px;
+}
+.number img{
+  margin-right: 20px;
+}
+.geo-boston img{
+  margin-right: 20px;
+}
+.geo-london img{
+  margin-right: 20px;
+}
+.e-mail,.nmbr,.g-b,.g-l a{
+ position: absolute;
+}
+.email{
+  margin-bottom: 49px;
+}
+.geo-boston{
+  margin-bottom: 37px;
+}
+
+.slick-next::before {
+  transform: translate(-100%) rotate(180deg);
+}/*# sourceMappingURL=style.css.map */

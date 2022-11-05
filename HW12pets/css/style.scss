@@ -1,0 +1,213 @@
+@import 'variables';
+@import 'mixins';
+*,body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    max-width: 1280px;
+    padding: 0 40px;
+    margin: auto;
+}
+.header-section{
+    padding-top: 60px;
+    background: linear-gradient(0deg, #211F20, #211F20),
+    radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) ;
+}
+header{
+    @include fb();
+}
+.logo{
+    .main-logo{
+        @include font(32px,$primary-color,400,$georgia);
+    }
+    .sub-logo{
+        margin-top: 10px;
+        @include font(13px,$white,400,$arial);
+    }
+}
+.menu{
+    &-burger{
+        display: none;
+        transition: 1s ease-in-out;
+        z-index: 100;
+        div{
+            width: 30px;
+            height: 2px;
+            background: $primary-color;
+            transition: 1s ease-in-out;
+            &:nth-child(2){
+                margin: 10px 0;
+            }
+        }
+    }
+    &-item{
+        display: inline-block;
+        margin: 0 17px;
+    }
+    &-item.active{
+        position: relative;
+        a{
+            color: $white;
+        }
+        &::before{
+            @include pseudo(100%,3px);
+            background: $primary-color;
+            bottom: -10px;
+            left: 0;
+        }
+    }
+    &-link{
+        @include font(15px,$cd-color,400,$arial)
+    }
+    &-list{
+        transition: 1s ease-in-out;
+    }
+}
+.main{
+    &-wrap{
+        margin-top: 60px;
+        @include fb();
+        flex-wrap: nowrap;
+    }
+    &-content{
+        width: 460px;
+        .content-header{
+            h1{
+                @include font(44px,$white,400,$georgia);
+            }
+        }
+        .content-description{
+            margin: 42px 0;
+            p{
+                @include font(15px,$cd-color,400,$arial);
+                line-height: 160%;
+            }
+        }
+    }
+    &-image{
+        width: 698px;
+        img{
+            width: 100%;
+        }
+    }
+}
+.btn{
+    a{
+        @include font(17px,$dark-color,400,$georgia);
+        padding: 15px 45px;
+        border-radius: 100px;
+        background: $primary-color;
+        display: inline-block;
+    }
+}
+.section-header{
+    @include font(35px,$light-gray,400,$georgia)
+}
+.about-section{
+    padding: 94px 0 100px;
+}
+.about{
+    &-wrap{
+        @include fc();
+        &-image,&-description{
+            flex-basis: 50%;
+        }
+        &-image{
+            text-align: center;
+            img{
+                width: 60%;
+            }
+        }
+        &-description{
+            p{
+                margin-top: 25px;
+                @include font(15px,$color4,400,$arial);
+                line-height: 160%;
+                padding-right: 50px;
+            }
+        }
+    }
+}
+.help-section{
+    padding: 80px 0 100px;
+    .help-header{
+        text-align: center;
+    }
+}
+.shelter-wrap{
+    @include fa();
+    &__item{
+        text-align: center;
+        margin-top: 85px;
+        width: 201px;
+    }
+}
+.pets-section{
+    padding: 80px 0 100px;
+    background: #F6F6F6;
+}
+.pets-header{
+    h2{
+        text-align: center;
+    }
+}
+.pets{
+    margin-top: 60px;
+    padding: 0 105px;
+    position: relative;
+    &-item{
+        width: 270px;
+        // background: #fafafa;
+        background: #fafafa;
+        border-radius: 9px;
+        padding-bottom: 30px;
+        margin: auto;
+        &__name{
+            margin-top: 30px;
+            p{
+                @include font(20px,$light-gray,400,$georgia);
+                text-align: center;
+            }
+        }
+        .btn{
+            text-align: center;
+            margin-top: 30px;
+            a{
+                background: none;
+                border: 2px solid $primary-color;
+            }
+        }
+
+    }
+}
+.slick-prev,.slick-next{
+    position: absolute;
+    top: 50%;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    transform: translate(-50%);
+    border: none;
+}
+.slick-prev{
+    left: 0;
+}
+.slick-next{
+    right: 0;
+
+}
+.slick-prev::after,.slick-next::before{
+    @include pseudo(52px,52px);
+    border-radius: 50%;
+    border: 2px solid $primary-color;
+    background: url('../images/arrow.png') no-repeat center;
+    background-size: 14px;
+    cursor: pointer;
+}
+.slick-next::before{
+    transform:translate(-100%) rotate(180deg);
+}
