@@ -6,12 +6,13 @@
   text-decoration: none;
 }
 
-.section {
+.container {
   max-width: 1320px;
 }
 
 .sect-header {
   background: url("../img/Shade.svg") repeat-x bottom, url("../img/Symbol Long leg.svg") no-repeat bottom center, url("../img/Frame 2.svg") no-repeat bottom center, linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%), linear-gradient(180deg, rgba(50, 50, 100, 0) 16.67%, #323264 100%);
+  padding: 50px;
 }
 
 .logo img {
@@ -86,7 +87,19 @@
   margin-right: 10px;
 }
 
-.ecl {
+.admin p {
+  width: 800px;
+  height: 90px;
+  left: calc(50% - 400px);
+  top: calc(50% - 45px + 3px);
+  font-family: "TT Norms";
+  font-size: 38px;
+  line-height: 45px;
+  text-align: center;
+  color: #fff;
+}
+
+/* .ecl {
   box-sizing: border-box;
   position: absolute;
   width: 42px;
@@ -102,4 +115,77 @@
   height: 9px;
   left: calc(50% - 9px);
   bottom: 15px;
-}/*# sourceMappingURL=bpage.css.map */
+} */
+.prod{
+    width: 527px;
+    height: 330px;
+}
+
+.prod p{
+  left: 356px;
+  top: 880px;
+  font-family: "TT Norms";
+  font-size: 42px;
+  line-height: 50px;
+  text-align: right;
+  background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.bor {
+  width: 2px;
+  height: 300px;
+  background: #E6E6F0;
+  margin: 0 20px 0 20px;
+}
+
+.pro {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.prod1 h3 {
+  height: 76px;
+  left: 667px;
+  right: 173px;
+  top: 931px;
+  font-family: "TT Norms";
+  font-size: 32px;
+  line-height: 38px;
+  color: #fff;
+}
+
+.prod1 span {
+  height: 120px;
+  left: 667px;
+  right: 173px;
+  top: 1027px;
+  font-family: "TT Norms";
+  font-size: 21px;
+  line-height: 30px;
+  color: #fff;
+}
+.spis{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.spis h3{
+    font-family: 'TT Norms';
+font-size: 24px;
+line-height: 28px;
+color: #24A3FF;
+}
+.spis p{
+    font-family: 'TT Norms';
+font-size: 18px;
+line-height: 26px;
+color: #fff;
+}
+.spis1,.spis2,.spis3,.spis4,.spis5,.spis6{
+    width: 400px;
+}
+    /*# sourceMappingURL=bpage.css.map */
