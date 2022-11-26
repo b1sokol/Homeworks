@@ -1,191 +1,385 @@
-*, body, html {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
+*,
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
 .container {
-  max-width: 1320px;
+    max-width: 1320px;
 }
 
 .sect-header {
-  background: url("../img/Shade.svg") repeat-x bottom, url("../img/Symbol Long leg.svg") no-repeat bottom center, url("../img/Frame 2.svg") no-repeat bottom center, linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%), linear-gradient(180deg, rgba(50, 50, 100, 0) 16.67%, #323264 100%);
-  padding: 50px;
+    height: 800px;
+    background: url("../img/Shade.svg") repeat-x bottom,
+        url("../img/Symbol Long leg.svg") no-repeat bottom center,
+        url("../img/Frame 2.svg") no-repeat bottom center,
+        linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%),
+        linear-gradient(180deg, rgba(50, 50, 100, 0) 16.67%, #323264 100%);
+    padding: 50px;
 }
 
 .logo img {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 .lang {
-  width: 29px;
-  height: 24px;
-  border: none;
-  border-radius: 8px;
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 14px;
-  text-align: center;
-  letter-spacing: 1px;
+    width: 29px;
+    height: 24px;
+    border: none;
+    border-radius: 8px;
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 1px;
 }
 
 .nav-item {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 .item {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .list-item a {
-  color: #fff;
-  text-decoration: none;
-  margin-right: 7.5px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 7.5px;
 }
 
 .map {
-  width: 208px;
-  height: 19px;
-  right: 232px;
-  top: 2px;
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: #fff;
-  text-decoration: none;
+    width: 208px;
+    height: 19px;
+    right: 232px;
+    top: 2px;
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    text-decoration: none;
 }
 
 .number {
-  width: 162px;
-  height: 19px;
-  right: 50px;
-  top: 2px;
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 19px;
-  color: #fff;
-  text-decoration: none;
+    width: 162px;
+    height: 19px;
+    right: 50px;
+    top: 2px;
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    text-decoration: none;
 }
 
-.contact, .map {
-  margin-right: 10px;
+.contact,
+.map {
+    margin-right: 10px;
 }
 
 .admin p {
-  width: 800px;
-  height: 90px;
-  left: calc(50% - 400px);
-  top: calc(50% - 45px + 3px);
-  font-family: "TT Norms";
-  font-size: 38px;
-  line-height: 45px;
-  text-align: center;
-  color: #fff;
+    font-family: "TT Norms";
+    font-size: 38px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    margin-top: 225px;
 }
 
-/* .ecl {
-  box-sizing: border-box;
-  position: absolute;
-  width: 42px;
-  height: 42px;
-  left: calc(50% - 21px);
-  bottom: -360px;
-  opacity: 0.5;
+.ecl {
+    box-sizing: border-box;
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: calc(50% - 21px);
+    bottom: -360px;
+    opacity: 0.5;
 }
 
 .vector {
-  position: absolute;
-  width: 18px;
-  height: 9px;
-  left: calc(50% - 9px);
-  bottom: 15px;
-} */
-.prod{
+    position: absolute;
+    width: 18px;
+    height: 9px;
+    left: calc(50% - 9px);
+    bottom: 15px;
+}
+
+.sec-uslugi {
+    background: url('../img/Shade.svg') repeat-x bottom,
+        linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%),
+        linear-gradient(180deg, rgba(50, 50, 100, 0) 16.67%, #323264 100%);
+    padding-top: 100px;
+}
+
+.prod {
     width: 527px;
     height: 330px;
 }
 
-.prod p{
-  left: 356px;
-  top: 880px;
-  font-family: "TT Norms";
-  font-size: 42px;
-  line-height: 50px;
-  text-align: right;
-  background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.prod p {
+    left: 356px;
+    top: 880px;
+    font-family: "TT Norms";
+    font-size: 42px;
+    line-height: 50px;
+    text-align: right;
+    background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .bor {
-  width: 2px;
-  height: 300px;
-  background: #E6E6F0;
-  margin: 0 20px 0 20px;
+    width: 2px;
+    height: 300px;
+    background: #E6E6F0;
+    margin: 0 20px 0 20px;
 }
 
 .pro {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 .prod1 h3 {
-  height: 76px;
-  left: 667px;
-  right: 173px;
-  top: 931px;
-  font-family: "TT Norms";
-  font-size: 32px;
-  line-height: 38px;
-  color: #fff;
+    height: 76px;
+    left: 667px;
+    right: 173px;
+    top: 931px;
+    font-family: "TT Norms";
+    font-size: 32px;
+    line-height: 38px;
+    color: #fff;
 }
 
 .prod1 span {
-  height: 120px;
-  left: 667px;
-  right: 173px;
-  top: 1027px;
-  font-family: "TT Norms";
-  font-size: 21px;
-  line-height: 30px;
-  color: #fff;
+    height: 120px;
+    left: 667px;
+    right: 173px;
+    top: 1027px;
+    font-family: "TT Norms";
+    font-size: 21px;
+    line-height: 30px;
+    color: #fff;
 }
-.spis{
+
+.uslugi p {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.uslugi h2 {
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.spis {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-top: 65px;
 }
-.spis h3{
+
+.spis h3 {
     font-family: 'TT Norms';
-font-size: 24px;
-line-height: 28px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #24A3FF;
+}
+
+.spis p {
+    font-family: 'TT Norms';
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+}
+
+.spis1,
+.spis2,
+.spis3,
+.spis4,
+.spis5,
+.spis6 {
+    width: 350px;
+}
+
+.spis4,
+.spis5,
+.spis6 {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.border {
+    width: 1300px;
+    height: 10px;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    background: #CACADB;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.border2 {
+    width: 1250px;
+    height: 10px;
+    top: 50%;
+    bottom: 0%;
+    background: #E7E7F2;
+    border-radius: 0px 0px 12px 12px;
+    margin: 10px 40px 0 40px;
+}
+.caro h3{
+    font-family: 'TT Norms';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 1px;
+text-transform: uppercase;
 color: #24A3FF;
 }
-.spis p{
+.caro p{
     font-family: 'TT Norms';
-font-size: 18px;
-line-height: 26px;
-color: #fff;
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 50px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
 }
-.spis1,.spis2,.spis3,.spis4,.spis5,.spis6{
-    width: 400px;
+.caro{
+    display: flex;
 }
-    /*# sourceMappingURL=bpage.css.map */
+.carot{
+padding: 40px 40px ;
+}
+.carousel-inner{
+    margin-top: 40px;
+}
+.active{
+    background:lightgrey;
+}
+.tex{
+text-align: center;
+font-family: 'TT Norms';
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #323264;
+margin: 30px 0 30px 0;
+}
+.company{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hillel{
+    background: #1C4280;
+    width: 337px;
+    height: 120px;
+    text-align: center;
+    padding-top: 36px;
+}
+.wannabiz{
+    background: #143646;
+    width: 337px;
+    height: 120px;
+    text-align: center;
+    padding-top: 40px;
+}
+.tapgerine{
+    background: #F48B30;
+    width: 337px;
+    height: 120px;
+    text-align: center;
+    padding-top: 38px;
+}
+.look{
+    background: #9E4DC3;
+    width: 337px;
+    height: 120px;
+    text-align: center;
+    padding-top: 39px;
+}
+.orangear{
+    background: #FD9339;
+    width: 337px;
+    height: 120px;
+    text-align: center;
+    padding-top: 38px;
+}
+.adtelligent{
+    background: #E2E2E4;
+    width: 337px;
+    height: 120px;
+    text-align: center;
+    padding-top: 36px;
+}
+.clickky{
+    background: #C71C36;
+    width: 337px;
+    height: 120px;
+    text-align: center;
+    padding-top: 30px;
+}
+.eco-leasing{
+    background: #DCF3F9;
+    width: 337px;
+    height: 120px;
+    text-align: center;
+    padding-top: 22px;
+}
+.infratek{
+    background: #EAEAEA;
+    width: 337px;
+    height: 120px;
+    text-align: center;
+    padding-top: 30px;
+}
+.sitipark{
+    background: #282240;
+    width: 337px;
+    height: 120px;
+    text-align: center;
+    padding-top: 41px;
+}
+.art-print{
+    background: #1D4568;
+    width: 337px;
+    height: 120px;
+    text-align: center;
+    padding-top: 37px;
+}
+.ultimate{
+    background: #000000;
+    width: 337px;
+    height: 120px;
+    text-align: center;
+    padding-top: 13px;
+}
+
+/*# sourceMappingURL=bpage.css.map */
