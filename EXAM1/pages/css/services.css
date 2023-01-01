@@ -1,4 +1,3 @@
-*,
 body,
 html {
   margin: 0;
@@ -8,12 +7,15 @@ html {
   text-decoration: none;
 }
 
+section {
+  max-width: 1440px;
+}
+
 .container {
   max-width: 1320px;
 }
 
-.sect-header {
-  height: 800px;
+.bsect {
   background: url("../img/Shade.svg") repeat-x bottom, url("../img/Symbol Long leg.svg") no-repeat bottom center, url("../img/Frame 2.svg") no-repeat bottom center, linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%), linear-gradient(180deg, rgba(50, 50, 100, 0) 16.67%, #323264 100%);
   padding: 50px;
 }
@@ -50,13 +52,13 @@ html {
 .item {
   display: flex;
   flex-wrap: wrap;
-  text-decoration: none;
 }
 
 .list-item a {
   color: #fff;
   text-decoration: none;
   margin-right: 7.5px;
+  list-style-type: none;
 }
 
 .map {
@@ -90,97 +92,6 @@ html {
 .contact,
 .map {
   margin-right: 10px;
-}
-
-.admin p {
-  font-family: "TT Norms";
-  font-size: 38px;
-  line-height: 45px;
-  text-align: center;
-  color: #fff;
-  margin-top: 225px;
-}
-
-.ecl {
-  box-sizing: border-box;
-  position: absolute;
-  width: 42px;
-  height: 42px;
-  left: calc(50% - 21px);
-  bottom: -360px;
-  opacity: 0.5;
-}
-
-.vector {
-  position: absolute;
-  width: 18px;
-  height: 9px;
-  left: calc(50% - 9px);
-  bottom: 15px;
-}
-
-.sec-uslugi {
-  background: url("../img/Shade.svg") repeat-x bottom, linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%), linear-gradient(180deg, rgba(50, 50, 100, 0) 16.67%, #323264 100%);
-  padding-top: 100px;
-}
-
-.prod {
-  width: 527px;
-  height: 330px;
-}
-
-.prod p {
-  height: 50px;
-  left: 356px;
-  top: 880px;
-  font-family: "TT Norms";
-  font-size: 42px;
-  line-height: 50px;
-  text-align: right;
-  background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.bor {
-  width: 2px;
-  height: 300px;
-  background: #E6E6F0;
-  margin: 0 20px 0 20px;
-}
-
-.pro {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-}
-
-.prod1 h3 {
-  height: 76px;
-  left: 667px;
-  right: 173px;
-  top: 931px;
-  font-family: "TT Norms";
-  font-size: 32px;
-  line-height: 38px;
-  color: #fff;
-}
-
-.prod1 span {
-  height: 120px;
-  left: 667px;
-  right: 173px;
-  top: 1027px;
-  font-family: "TT Norms";
-  font-size: 21px;
-  line-height: 30px;
-  color: #fff;
-}
-
-.uslugi p {
-  color: #fff;
-  margin-bottom: 0;
 }
 
 .uslugi h2 {
@@ -227,66 +138,6 @@ html {
   margin-bottom: 80px;
 }
 
-.border {
-  width: 1300px;
-  height: 10px;
-  background: #CACADB;
-  border-radius: 0px 0px 12px 12px;
-}
-
-.border2 {
-  width: 1250px;
-  height: 10px;
-  top: 50%;
-  bottom: 0%;
-  background: #E7E7F2;
-  border-radius: 0px 0px 12px 12px;
-  margin: 10px 40px 0 40px;
-}
-
-.caro h3 {
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #24A3FF;
-}
-
-.caro p {
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 50px;
-  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.caro {
-  display: flex;
-}
-
-.carot {
-  padding: 40px 40px;
-}
-
-.carousel-inner {
-  margin-top: 40px;
-}
-
-.active {
-  background: lightgrey;
-}
-
-.igrid {
-  display: grid;
-}
-
 .tex {
   text-align: center;
   font-family: "TT Norms";
@@ -306,7 +157,6 @@ html {
 .hillel {
   background: #1C4280;
   width: 337px;
-  height: 120px;
   text-align: center;
   padding-top: 36px;
 }
@@ -322,7 +172,6 @@ html {
 .tapgerine {
   background: #F48B30;
   width: 337px;
-  height: 120px;
   text-align: center;
   padding-top: 38px;
 }
@@ -330,7 +179,6 @@ html {
 .look {
   background: #9E4DC3;
   width: 337px;
-  height: 120px;
   text-align: center;
   padding-top: 39px;
 }
@@ -338,7 +186,6 @@ html {
 .orangear {
   background: #FD9339;
   width: 337px;
-  height: 120px;
   text-align: center;
   padding-top: 38px;
 }
@@ -346,7 +193,6 @@ html {
 .adtelligent {
   background: #E2E2E4;
   width: 337px;
-  height: 120px;
   text-align: center;
   padding-top: 36px;
 }
@@ -354,7 +200,6 @@ html {
 .clickky {
   background: #C71C36;
   width: 337px;
-  height: 120px;
   text-align: center;
   padding-top: 30px;
 }
@@ -370,7 +215,6 @@ html {
 .infratek {
   background: #EAEAEA;
   width: 337px;
-  height: 120px;
   text-align: center;
   padding-top: 30px;
 }
@@ -378,7 +222,6 @@ html {
 .sitipark {
   background: #282240;
   width: 337px;
-  height: 120px;
   text-align: center;
   padding-top: 41px;
 }
@@ -394,7 +237,6 @@ html {
 .ultimate {
   background: #000000;
   width: 337px;
-  height: 120px;
   text-align: center;
   padding-top: 13px;
-}/*# sourceMappingURL=bpage.css.map */
+}/*# sourceMappingURL=services.css.map */

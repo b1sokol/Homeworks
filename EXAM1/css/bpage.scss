@@ -54,6 +54,7 @@ html {
 .item {
     display: flex;
     flex-wrap: wrap;
+    text-decoration: none;
 }
 
 .list-item a {
@@ -61,6 +62,7 @@ html {
     text-decoration: none;
     margin-right: 7.5px;
 }
+
 
 .map {
     width: 208px;
@@ -280,6 +282,9 @@ padding: 40px 40px ;
 }
 .active{
     background:lightgrey;
+}
+.igrid{
+    display: grid;
 }
 .tex{
     text-align: center;

@@ -1,0 +1,179 @@
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1320px;
+}
+
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 50px 60px 0 60px;
+}
+
+.lang {
+  width: 29px;
+  height: 24px;
+  border: none;
+  border-radius: 8px;
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.nav-item {
+  margin-top: 20px;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+.list-item a {
+  color: blue;
+  text-decoration: none;
+  margin-right: 7.5px;
+}
+
+.urposl {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+
+.posl {
+  width: 641px;
+  height: 380px;
+}
+
+.posl h2 {
+  font-family: "TT Norms";
+  font-size: 42px;
+  line-height: 50px;
+  margin-bottom: 20px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.posl p {
+  font-family: "TT Norms";
+  font-size: 21px;
+  line-height: 30px;
+}
+
+.border {
+  width: 2px;
+  height: 350px;
+  background: grey;
+}
+
+.dos {
+  width: 412px;
+  height: 315px;
+}
+
+.dos img {
+  margin-bottom: 10px;
+}
+
+.dos p {
+  margin-bottom: 40px;
+}
+
+.team {
+  margin: 100px 0 80px 0;
+  width: 1440px;
+}
+
+.text {
+  width: 641px;
+  height: 340px;
+}
+
+.yakist {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 93px;
+}
+
+.text p {
+  font-family: "TT Norms";
+  font-size: 21px;
+  line-height: 30px;
+}
+
+.th2 {
+  width: 414px;
+  height: 150px;
+}
+
+.th2 h2 {
+  font-family: "TT Norms";
+  font-size: 42px;
+  line-height: 50px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.doss {
+  background: #F5F5FA;
+  padding-top: 28px;
+}
+
+h3 {
+  font-family: "TT Norms";
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.dosiagnennia {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box, .box1, .box2, .box3 {
+  width: 300px;
+  height: 109px;
+  background: #fff;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.box img {
+  margin: 25px 110px 25px 110px;
+}
+
+.box1 img {
+  margin: 25px 70px 25px 71px;
+}
+
+.box2 img {
+  margin: 25px 52px 24px 53px;
+}
+
+.box3 img {
+  margin: 25px 67px 25px 67px;
+}/*# sourceMappingURL=about.css.map */
