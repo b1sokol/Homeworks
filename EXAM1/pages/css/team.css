@@ -1,1 +1,139 @@
-/*# sourceMappingURL=team.css.map */
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1320px;
+}
+
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 50px 60px 0 60px;
+}
+
+.lang {
+  width: 29px;
+  height: 24px;
+  border: none;
+  border-radius: 8px;
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.nav-item {
+  margin-top: 20px;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+.list-item a {
+  color: blue;
+  text-decoration: none;
+  margin-right: 7.5px;
+}
+
+.ttext {
+  width: 864px;
+  height: 200px;
+  margin: 80px 288px 80px 288px;
+}
+
+.ttext h2 {
+  font-family: "TT Norms";
+  font-size: 42px;
+  line-height: 50px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.peopleteam {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tbox {
+  height: 568px;
+  margin-top: 40px;
+}
+
+.tbox h4 {
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #323264;
+  margin: 20px 0 5px 0;
+}
+
+.tbox p {
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #B3B3BA;
+}
+
+.tbox button {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px solid lightgrey;
+  float: right;
+}
+.laast{
+    padding-top: 60px;
+}
+
+.lastsec {
+  width: 100%;
+  height: 151px;
+  background: #E5E5E5;
+  display: flex;
+  padding: 30px 60px 50px 60px;
+  justify-content: space-between;
+}
+
+.geo {
+  display: flex;
+  flex-direction: column;
+}
+
+.numb img {
+  width: 38px;
+  height: 38px;
+  margin: 20px 20px 0 0;
+}
+
+.inf {
+  float: right;
+}
+
+.inf p {
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #B3B3BA;
+}/*# sourceMappingURL=team.css.map */
