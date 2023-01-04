@@ -49,14 +49,21 @@ html {
   margin-right: 7.5px;
 }
 
-.ttext {
-  width: 864px;
-  height: 200px;
-  margin: 80px 288px 80px 288px;
+.basic {
+  display: flex;
+  padding: 80px 173px;
 }
 
-.ttext h2 {
+.name {
+  width: 641px;
+  height: 102px;
+}
+
+.name h1 {
+  margin-bottom: 13px;
   font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 700;
   font-size: 42px;
   line-height: 50px;
   background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
@@ -65,41 +72,64 @@ html {
   background-clip: text;
 }
 
-.peopleteam {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.border {
+  width: 640px;
+  height: 1px;
+  background: #E6E6F0;
+  margin: 20px 0 40px 0;
 }
 
-.tbox {
-  height: 568px;
-  margin-top: 40px;
+.resume {
+  width: 641px;
+  height: 466px;
 }
 
-.tbox h4 {
+.resume p {
   font-family: "TT Norms";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 21px;
-  color: #323264;
-  margin: 20px 0 5px 0;
+  line-height: 26px;
+  margin-bottom: 40px;
+  color: #000;
 }
 
-.tbox p {
+.resume h3 {
   font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #323264;
+  margin-bottom: 10px;
+}
+
+.foto {
+  margin-right: 40px;
+}
+
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cont p {
+  font-family: "TT Norms";
   font-size: 16px;
   line-height: 22px;
   color: #B3B3BA;
 }
 
-.tbox button {
-  width: 20px;
-  height: 20px;
-  border-radius: 20px solid lightgrey;
-  float: right;
+.menu-item {
+  display: inline-block;
+  margin: 0 5px 0 5px;
+}
+
+.menu-item::marker {
+  list-style-type: circle;
+  color: #E6E6F0;
+  width: 6px;
+  height: 6px;
 }
 
 .lastsec {
@@ -134,4 +164,4 @@ html {
   font-size: 16px;
   line-height: 19px;
   color: #B3B3BA;
-}/*# sourceMappingURL=team.css.map */
+}/*# sourceMappingURL=teamMember.css.map */
