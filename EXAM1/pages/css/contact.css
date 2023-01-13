@@ -1,1 +1,129 @@
-/*# sourceMappingURL=contact.css.map */
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1320px;
+}
+
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 50px 60px 0 60px;
+}
+
+.lang {
+  width: 29px;
+  height: 24px;
+  border: none;
+  border-radius: 8px;
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.nav-item {
+  margin-top: 20px;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+.list-item a {
+  color: blue;
+  text-decoration: none;
+  margin-right: 7.5px;
+}
+
+.info {
+  display: flex;
+  padding: 80px 173px 80px 173px;
+}
+
+.adres {
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #323264;
+}
+
+.border1,
+.border2 {
+  width: 412px;
+  height: 1px;
+  background: #E6E6F0;
+}
+
+.border1 {
+  margin: 20px 0 40px 0;
+}
+
+.border2 {
+  margin: 40px 0 25px 0;
+}
+
+.number {
+  font-family: "TT Norms";
+  font-size: 21px;
+  line-height: 30px;
+  color: #46466E;
+  margin-bottom: 20px;
+}
+
+.faceb {
+  display: flex;
+}
+
+.faceb a {
+  margin-left: 10px;
+}
+
+.lastsec {
+  width: 100%;
+  height: 151px;
+  background: #E5E5E5;
+  display: flex;
+  padding: 30px 60px 50px 60px;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.geo {
+  display: flex;
+  flex-direction: column;
+}
+
+.numb img {
+  width: 38px;
+  height: 38px;
+  margin: 20px 20px 0 0;
+}
+
+.inf {
+  float: right;
+}
+
+.inf p {
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #B3B3BA;
+}/*# sourceMappingURL=contact.css.map */
