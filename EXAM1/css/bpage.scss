@@ -260,22 +260,72 @@ html {
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      "Успішні-кейси WannaBiz tapgereni"
-      "Hillel-IT-School WannaBiz tapgereni"
-      ". adtelligent clikky";
+      "gSuccessful-case gWannaBiz gtapgereni"
+      "gHillel-IT-School gWannaBiz gtapgereni"
+      ". gadtelligent gclikky";
   }
   
-  .WannaBiz { grid-area: WannaBiz; }
+//   .gWannaBiz { grid-area: WannaBiz; }
   
-  .tapgereni { grid-area: tapgereni; }
+//   .gtapgereni { grid-area: tapgereni; }
   
-  .Hillel-IT-School { grid-area: Hillel-IT-School; }
+//   .gHillel-IT-School { grid-area: Hillel-IT-School; }
   
-  .Успішні-кейси { grid-area: Успішні-кейси; }
+//   .gSuccessful-cases { grid-area: Successful-cases; }
   
-  .adtelligent { grid-area: adtelligent; }
+//   .gadtelligent { grid-area: adtelligent; }
   
-  .clikky { grid-area: clikky; }
+//   .gclikky { grid-area: clikky; }
+  .gWannaBiz{
+    background: #F5F5FA;
+    width: 454px;
+    
+  }
+  .gWannaBiz p{
+    margin: 105px 20px 66px 20px;
+  }
+  .gtapgereni{
+    background: #F5F5FA;
+    width: 433px;
+  }
+  .gtapgereni p{
+    margin: 105px 20px 66px 20px;
+  }
+  .gHillel-IT-School{
+    background: #F5F5FA;
+width: 433px;
+height: 198px;
+  }
+  .gHillel-IT-School p{
+    margin: 48px 20px 66px 20px;
+  }
+  .gadtelligent{
+    background: #F5F5FA;
+    width: 453px;
+  }
+  .gadtelligent p{
+    margin: 76px 20px 66px 20px;
+  }
+  .gclikky{
+    background: #F5F5FA;
+    width: 547px;
+  }
+  .gclikky p{
+    margin: 76px 20px 66px 20px;
+  }
+  .gSuccessful-cases{
+    background: #F5F5FA;
+    width: 433px;
+  }
+  .gSuccessful-cases h6{
+    margin: 20px 280px 20px 20px;
+  }
+  .g3d-look p{
+    margin: 20px 20px 66px 20px;
+  }
+  .g3d-look p{
+    margin: 20px 20px 66px 20px;
+  }
   
 .caro h3{
     font-family: 'TT Norms';
