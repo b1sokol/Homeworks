@@ -1,1 +1,82 @@
-/*# sourceMappingURL=service2.css.map */
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1320px;
+}
+
+.first {
+  height: 1141px;
+  background: url(../img/computer.png) no-repeat center top, linear-gradient(180deg, rgba(50, 50, 100, 0.1) 0%, #323264 100%), url(241305.jpg), linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+}
+
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 50px 60px 0 60px;
+}
+
+.lang {
+  width: 29px;
+  height: 24px;
+  border: none;
+  border-radius: 8px;
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.nav-item {
+  margin-top: 20px;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+.list-item a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 7.5px;
+}
+
+.it img {
+  margin: 50px 674px 0 634px;
+  align-items: center;
+}
+
+.it h3 {
+  font-family: "TT Norms";
+  font-size: 42px;
+  line-height: 50px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0 406px 20px 407px;
+  text-align: center;
+}
+
+.it p {
+  width: 861px;
+  font-family: "TT Norms";
+  font-size: 21px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0 289px 40px 290px;
+}/*# sourceMappingURL=service2.css.map */
