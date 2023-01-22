@@ -10,10 +10,10 @@ html {
 
 .container {
     max-width: 1320px;
-}
+ }
 .first{
     height: 1141px;
-    background: url(../img/computer.png) no-repeat center top, linear-gradient(180deg, rgba(50, 50, 100, 0.1) 0%, #323264 100%), url(241305.jpg), linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);;
+    background: url(../img/computer.png) no-repeat center top, linear-gradient(180deg, rgba(50, 50, 100, 0.1) 0%, #323264 100%), url(241305.jpg), linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
 }
 .header {
     display: flex;
@@ -75,3 +75,38 @@ text-align: center;
 color: #FFFFFF;
 margin: 0 289px 40px 290px ;
   }
+.border{
+  width: 1092px;
+  height: 1px;
+  background: #fff;
+  margin-left: 175px;
+}
+.poslugi{
+  width: 351px;
+  font-family: 'TT Norms';
+font-size: 24px;
+line-height: 28px;
+color: #fff;
+margin: 20px 0 20px 175px;
+}
+.serv{
+  display: flex;
+  flex-wrap: wrap;
+}
+.spisok1,.spisok2{
+  width: 500px;
+  height: 279px;
+}
+.spisok1{
+  margin: 20px 25px 80px 200px;
+}
+.spisok2{
+  margin: 20px 173px 80px 25px;
+}
+.s-item{
+  font-family: 'TT Norms';
+font-size: 18px;
+line-height: 26px;
+color: #fff;
+list-style-type: circle;
+}
