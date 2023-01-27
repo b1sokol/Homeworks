@@ -15,12 +15,47 @@ html {
  .container {
     display: grid;
     grid-template-columns: 413px 414px 414px;
-    grid-template-rows: 265px 441px 265px 441px;
-    grid-gap: 5px;
+    grid-gap: 20px;
  }
- .grid-item{
-    background: gray;
+ .grid-item p{
+   color: #000;
+   font-family: 'TT Norms';
+font-size: 16px;
+line-height: 22px;
  }
  .grid-item2 p{
-    margin: 338px 20px 21px 21px;
+   color: #000;
+   font-family: 'TT Norms';
+font-size: 16px;
+line-height: 22px;
+ }
+ .grid-item3 p{
+color: #000;
+font-family: 'TT Norms';
+font-size: 16px;
+line-height: 22px;
+ }
+ .grid-item4 p{
+color: #000;
+font-family: 'TT Norms';
+font-size: 16px;
+line-height: 22px;
+ }
+ .grid-item5 p{
+color: #000;
+font-family: 'TT Norms';
+font-size: 16px;
+line-height: 22px;
+ }
+ .grid-item6 p{
+color: #000;
+font-family: 'TT Norms';
+font-size: 16px;
+line-height: 22px;
+ }
+ .border{
+   width: 373px;
+   height: 2px;
+   background: gray;
+   margin: 20px;
  }
