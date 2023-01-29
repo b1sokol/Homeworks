@@ -235,10 +235,11 @@ html {
 }
 
 .border {
-    width: 1300px;
+    width: 1265px;
     height: 10px;
     background: #CACADB;
     border-radius: 0px 0px 12px 12px;
+    margin-left: 33px;
 }
 
 .border2 {
@@ -248,7 +249,7 @@ html {
     bottom: 0%;
     background: #E7E7F2;
     border-radius: 0px 0px 12px 12px;
-    margin: 10px 40px 0 40px;
+    margin: 0px 40px 0 40px;
 }
 .slide{
     margin-bottom: 70px;
@@ -460,4 +461,40 @@ padding: 40px 40px ;
         height: 120px;
         text-align: center;
         padding-top: 13px;
+    }
+    .lastsec {
+        width: 100%;
+        height: 151px;
+        background: #E5E5E5;
+        display: flex;
+        padding: 30px 60px 50px 60px;
+        justify-content: space-between;
+        padding-top: 60px;
+    }
+    
+    .geo {
+        display: flex;
+        flex-direction: column;
+    }
+    .map{
+        color: #000;
+    }
+    
+    .numb img {
+        width: 38px;
+        height: 38px;
+        margin: 20px 20px 0 0;
+    }
+    
+    .inf {
+        float: right;
+    }
+    
+    .inf p {
+        font-family: 'TT Norms';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #B3B3BA;
     }
