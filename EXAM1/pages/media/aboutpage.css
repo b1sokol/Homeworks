@@ -1,0 +1,93 @@
+@media screen and (max-width: 1080px){
+    .container{
+        width: 1070px;
+    }
+    .yakist{
+        flex-direction: column;
+        text-align: center;
+    }
+    .text{
+        margin-left: 220px;
+    }
+    .th2{
+        margin-left: 333px;
+    }
+    .dosiagnennia{
+        flex-wrap: wrap;
+    }
+    .box3{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 720px){
+    .container{
+        width: 710px;
+    }
+    .item{
+        display: flex;
+        flex-direction: column;
+        float: right;
+    }
+    .contact img{
+        display: none;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .langb{
+        display: inline-block;
+    }
+    .border{
+        display: none;
+    }
+    .dos{
+        margin-left: 20px;
+    }
+     .yakist{
+        flex-direction: column;
+        text-align: center;
+    }
+    .text{
+        margin-left: 40px;
+    }
+    .th2{
+        margin-left: 153px;
+    }
+    .box2{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 480px){
+    .container{
+        width: 470px;
+    }
+    .logo img{
+        width: 70%;
+    }
+    .nav-item{
+        float: left;
+    }
+    .team{
+        margin-top: 370px;
+    }
+    .yakist{
+        flex-direction: column;
+        text-align: center;
+    }
+    .text{
+        width: 440px;
+        margin-left: 0;
+    }
+    .th2{
+        margin-left: 0;
+    }
+    .box1{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 320px){
+    .container{
+        width: 310px;    
+    }
+}
