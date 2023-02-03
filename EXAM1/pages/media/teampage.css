@@ -1,4 +1,79 @@
-@media screen and (max-width: 1080px){}
-@media screen and (max-width: 720px){}
-@media screen and (max-width: 480px){}
-@media screen and (max-width: 320px){}
+@media screen and (max-width: 1080px){
+    .container{
+        width: 1070px;
+    }
+    .ttext{
+        margin-left: 113px;
+    }
+}
+@media screen and (max-width: 720px){
+    .container{
+        width: 710px;
+    }
+    .langb{
+        display: inline-block;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact img{
+        display: none;
+    }
+    .item{
+        display: flex;
+        flex-direction: column;
+        float: right;
+    }
+    .ttext{
+        width: 490px;
+    }
+}
+@media screen and (max-width: 480px){
+    .container{
+        width: 470px;
+    }
+    .logo img{
+        width: 70%;
+    }
+    .numb img{
+        display: none;
+    }
+    .ttext{
+        width: 400px;
+        margin: 0 40px 0 40px;
+    }
+    .peopleteam{
+        margin-top: 200px;
+    }
+    .lastsec{
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 320px){
+    .container{
+        width: 310px;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .contact a{
+        display: none;
+    }
+    .lang-loc-numb{
+        padding-right: 0;
+        float: right;
+    }
+    .ttext{
+        width: 300px;
+    }
+    .peopleteam{
+        margin-top: 320px;
+    }
+    .lastsec img{
+        display: none;
+    }
+    .lastsec{
+        flex-direction: column;
+    }
+}

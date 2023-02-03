@@ -71,9 +71,7 @@
     .container{
         width: 310px;
     }
-   .header{
-    flex-wrap: wrap;
-   }
+                                    
     .prod1 h3{
         height: 150px;
     }
