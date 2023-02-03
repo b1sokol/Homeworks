@@ -70,6 +70,7 @@
     }
     .team{
         margin-top: 370px;
+        margin-bottom: 0;
     }
     .yakist{
         flex-direction: column;
@@ -85,9 +86,40 @@
     .box1{
         margin-top: 20px;
     }
+    .th2{
+        margin-top: 150px;
+    }
+    .numb img{
+        display: none;
+    }
+    .lastsec{
+        padding-right: 0;
+    }
+    .inf{
+        float: right;
+    }
 }
 @media screen and (max-width: 320px){
     .container{
         width: 310px;    
+    }
+    .header{
+        flex-wrap: wrap;
+       }
+   .dos{
+    display: none;
+   }
+   .text{
+    width: 100%;
+   }
+   .th2{
+    width: 100%;
+    margin-top: 250px;
+   }
+    .lastsec img{
+        display: none;
+    }
+    .lastsec{
+        flex-direction: column;
     }
 }
