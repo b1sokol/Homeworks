@@ -1,4 +1,51 @@
-@media screen and (max-width: 1080px){}
-@media screen and (max-width: 720px){}
-@media screen and (max-width: 480px){}
-@media screen and (max-width: 320px){}
+@media screen and (max-width: 1080px){
+    .container{
+        width: 1070px;
+    }
+    .first{
+        height: 1341px;
+    }
+    .it img{
+        margin-left: 494px;
+    }
+    .it p{
+        margin-left: 109px;
+    }
+    .button{
+        margin-left: 415px;
+    }
+}
+@media screen and (max-width: 720px){
+    .container{
+        width: 710px;
+    }
+    .logo{
+        width: 70%;
+    }
+    .first{
+        height: 1741px;
+    }
+    .it img{
+        margin-left: 314px;
+    }
+    .it h3{
+        margin: 0 0 20px 30px;
+    }
+    .it p{
+        width: 600px;
+        margin-left: 60px;
+    }
+    .button{
+        margin-left: 235px;
+    }
+}
+@media screen and (max-width: 480px){
+    .container{
+        width: 470px;
+    }
+}
+@media screen and (max-width: 320px){
+    .container{
+        width: 310px;
+    }
+}
