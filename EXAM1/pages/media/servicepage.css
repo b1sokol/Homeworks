@@ -1,4 +1,27 @@
-@media screen and (max-width: 1080px){}
-@media screen and (max-width: 720px){}
-@media screen and (max-width: 480px){}
-@media screen and (max-width: 320px){}
+@media screen and (max-width: 1080px){
+    .container{
+        width: 1070px;
+    }
+    .lastsec{
+        width: 1080px;
+        padding: 30px;
+    }
+    .spis{
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 720px){
+    .container{
+        width: 710px;
+    }
+}
+@media screen and (max-width: 480px){
+    .container{
+        width: 470px;
+    }
+}
+@media screen and (max-width: 320px){
+    .container{
+        width: 310px;
+    }
+}
