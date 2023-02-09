@@ -35,6 +35,9 @@
     .container {
         width: 470px;
     }
+    .logo img{
+        width: 100%;
+    }
     .gdpr{
         width: 310px;
         margin: 60px 80px 40px 80px;
@@ -44,7 +47,29 @@
         margin: 0 100px 0 100px;
     }
     .person{
-        margin: 0 215px 0 215px;
+        width: 400px;
+        margin: 0 0 0 40px;
+    }
+    .basic h1{
+        margin: 0 30px 40px 30px;
+    }
+    .basic p{
+        margin: 40px 30px 40px 30px;
+    }
+    .basic h2{
+        margin: 0 30px 10px 30px;
+    }
+    .basic h6{
+        margin: 10px 0 40px 40px;
+    }
+    .basic h3{
+        margin: 10px 0 40px 40px;
+    }
+    .img-comp{
+        margin: 0 0 40px 50px;
+    }
+    .numb img{
+        display: none;
     }
 }
 
@@ -52,14 +77,24 @@
     .container {
         width: 310px;
     }
+    .contact a{
+        display: none;
+    }
+    .contact img{
+        display: none;
+    }
     .gdpr{
-        margin: 60px 80px 40px 80px;
+        margin-left: 30px;
     }
     .border{
-        width: 680px;
-        margin: 0 200px 0 200px;
+        width: 250px;
+        margin: 10px 0 10px 30px;
     }
     .person{
-        margin: 0 215px 0 215px;
+        width: 300px;
+        margin: 10px 0 10px 30px;
+    }
+    .numb img{
+        display: none;
     }
 }

@@ -2,11 +2,29 @@
     .container{
         width: 1070px;
     }
+    .header{
+        justify-content: space-around;
+        padding-right: 20px;
+    }
+    .bsect{
+        padding: 50px 0 0 5px;
+    }
+    .uslugi{
+        width: 1000px;
+    }
+    .spis1,.spis2,.spis3,.spis4,.spis5,.spis6{
+        width: 270px;
+    }
+    .spis3{
+
+    }
+    .spis6{
+
+    }
     .lastsec{
         width: 1080px;
-        padding: 30px;
-    }
-    .spis{
+        height: 100px;
+        padding: 20px 0 20px 0;
         justify-content: space-around;
     }
 }
@@ -14,14 +32,43 @@
     .container{
         width: 710px;
     }
+    .lastsec{
+        width: 720px;
+        height: 100px;
+        padding: 20px 0 20px 0;
+        justify-content: space-around;
+    }
 }
 @media screen and (max-width: 480px){
     .container{
         width: 470px;
     }
+    .logo img{
+        width: 70%;
+    }
+    .lastsec{
+        width: 480px;
+        height: 100px;
+        padding: 20px 0 20px 0;
+        justify-content: space-around;
+    }
 }
 @media screen and (max-width: 320px){
     .container{
         width: 310px;
+    }
+    .contact a{
+        display: none;
+    }
+    .contact img{
+        display: none;
+    }
+    .uslugi h2{
+        width: 280px;
+    }
+    .lastsec{
+        width: 320px;
+        display: flex;
+        flex-direction: column;
     }
 }
